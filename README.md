@@ -2,12 +2,12 @@
 
 <h1>YourSpace</h1>
 
-GameBook is a social media platform that brings together gamers from all around the world. Create a profile find your friends and build your own gaming empire. 
+YourSpace is a social media platform where you can interact with other users by sending friend requests, sending them direct messages, and you can even share your favorite  youtube videos!  
 
-|  Technologies    |    | APIs        |
-|-----------------:|    |-------------|
-| HTML             |    | Youtube API |
-| CSS              |    | News API    |
+|  Technologies    |    
+|-----------------:|    
+| HTML             |    
+| CSS              |    
 | Bootstrap        |
 | JavaScript       |
 | AngularJS        |
@@ -15,15 +15,17 @@ GameBook is a social media platform that brings together gamers from all around 
 | ASP.NET MVC      |
 | Entity Framework |
 
+| APIs        |
+|-------------|
+| Youtube API |
+| News API    |
 
 <img src="./READMEPic/multi.png">
 
-<h2>
-Team:
-Brian Canlas - UI/UX Developer 
-Shaneal Prasad - Full Stack Developer
-Chance Hernandez - Full Stack Developer
-</h2>
+<h2>Team:</h2>
+<h3>Brian Canlas - UI/UX Developer</h3>
+<h3>Shaneal Prasad - Full Stack Developer</h3>
+<h3>Chance Hernandez - Full Stack Developer</h3>
 
 <h3>Length: 2 week sprint</h3>
 
