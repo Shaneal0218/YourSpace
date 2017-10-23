@@ -1,0 +1,10 @@
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\bin\MCD\Debug\netcoreapp2.0\YourSpaceB.deps.json
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\bin\MCD\Debug\netcoreapp2.0\YourSpaceB.runtimeconfig.json
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\bin\MCD\Debug\netcoreapp2.0\YourSpaceB.runtimeconfig.dev.json
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\bin\MCD\Debug\netcoreapp2.0\YourSpaceB.dll
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\bin\MCD\Debug\netcoreapp2.0\YourSpaceB.pdb
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\obj\MCD\Debug\netcoreapp2.0\YourSpaceB.csproj.CoreCompileInputs.cache
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\obj\MCD\Debug\netcoreapp2.0\YourSpaceB.AssemblyInfoInputs.cache
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\obj\MCD\Debug\netcoreapp2.0\YourSpaceB.AssemblyInfo.cs
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\obj\MCD\Debug\netcoreapp2.0\YourSpaceB.dll
+C:\Users\Chaka\Desktop\YourSpace10.0\YourSpaceB\obj\MCD\Debug\netcoreapp2.0\YourSpaceB.pdb

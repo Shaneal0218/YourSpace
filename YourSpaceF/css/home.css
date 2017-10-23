@@ -1,0 +1,123 @@
+.home-overlay {
+    background-color: rgba(0, 0, 0, .1);
+    height: 600px;
+}
+
+.ent {
+    font-family: 'Roboto';
+    background-color: #DDDDDD;
+}
+
+#about-us {
+    padding: 0;
+}
+
+.entertainment {
+    padding: 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.overlay-project {
+ position: absolute;  
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  height: 33.5%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:rgba(0,0,0, 0.7);
+}
+
+ .project:hover .overlay-project {
+    opacity: 1;
+    
+} 
+
+.text {
+  color: white;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.about {
+    height: 160px;
+    width: 100%;
+    margin: 0;
+}
+
+.about-one {
+    background-image: url('../images/videos.jpg');
+    
+}
+
+.about-two {
+    background-image: url('../images/news.jpg');
+}
+
+.about-three {
+    background-image: url('../images/movies.jpg');
+}
+
+.image-group {
+    padding: 0;
+}
+
+.ent {
+    padding-left: 50px;
+    height: 480px;
+}
+
+.section3 {
+    font-family: 'Roboto';
+    background-image: url('../images/getsocial.jpg');
+    clear: both;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.social-overlay {
+    background-color: rgba(0, 0, 0, .1);
+    height: 600px;
+}
+
+#get-social {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.img-circle {
+    border: 2px solid white;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.developer {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section4 {
+    background-color: black;
+    color: white;
+}
+
+ .dev-image {
+    padding-left: 20px;
+} 
+
+.profile-btn {
+    margin-right: 10px;
+}

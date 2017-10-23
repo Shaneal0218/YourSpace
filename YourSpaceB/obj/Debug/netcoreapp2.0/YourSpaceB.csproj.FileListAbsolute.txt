@@ -1,0 +1,44 @@
+/Users/macbookpro13/Desktop/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.deps.json
+/Users/macbookpro13/Desktop/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.json
+/Users/macbookpro13/Desktop/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.dev.json
+/Users/macbookpro13/Desktop/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.pdb
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csproj.CoreCompileInputs.cache
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfoInputs.cache
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfo.cs
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.pdb
+/Users/macbookpro13/Desktop/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csprojResolveAssemblyReference.cache
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.deps.json
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.json
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.dev.json
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.pdb
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csprojResolveAssemblyReference.cache
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csproj.CoreCompileInputs.cache
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfoInputs.cache
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfo.cs
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpace/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.pdb
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.deps.json
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.json
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.dev.json
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.dll
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.pdb
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csprojResolveAssemblyReference.cache
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csproj.CoreCompileInputs.cache
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfoInputs.cache
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfo.cs
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.dll
+C:/Users/Brian Canlas/Downloads/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.pdb
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.deps.json
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.json
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.runtimeconfig.dev.json
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/bin/Debug/netcoreapp2.0/YourSpaceB.pdb
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csprojResolveAssemblyReference.cache
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.csproj.CoreCompileInputs.cache
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfoInputs.cache
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.AssemblyInfo.cs
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.dll
+/Users/macbookpro13/Desktop/YourSpace12/YourSpace10.0/YourSpaceB/obj/Debug/netcoreapp2.0/YourSpaceB.pdb

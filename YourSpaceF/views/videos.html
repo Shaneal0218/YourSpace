@@ -1,0 +1,47 @@
+<div class="video">
+        <div class="container-fluid video">
+            <div class="col-md-8">
+                <div class="trending-video">
+                    <h1 class="video-heading">Trending Videos</h1>
+                    <hr class="video-hr">
+                    <div class="videoWrapper col-md-4" ng-repeat="video in trending">
+                        <div>
+                            <iframe width="560" height="500" ng-src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
+                            <button class="btn vid-btn fav" ng-click="addFavorite(video)">Favorite</button>
+                            <button class="btn vid-btn share" ng-click="shareModal(video)">Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="recent-video">
+                    <h1 class="video-heading">Search for Videos</h1>
+                    <hr class="video-hr">
+                    <input type="text" placeholder="Search for videos" class="video-search" ng-model="mySearch">
+                    <button class="btn search-btn" ng-click="getSearch()">Search</button>
+                    <div class="videoWrapper search-videos" ng-repeat="video in searchReturn">
+                        <iframe width="560" height="349" ng-src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
+                        <button class="btn vid-btn fav search-fav-btn" ng-click="addFavorite(video)">Favorite</button>
+                        <button class="btn vid-btn share" ng-click="shareModal(video)">Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="share" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Share</h4>
+                </div>
+                <div class="modal-body">
+                    <div ng-repeat="friend in currentUser.friends">
+                        <input type="checkbox" ng-model="checkedFriends[friend.username]">
+                        <label for="">{{ friend.username }}</label>
+                    </div>
+                    <button data-dismiss="modal" aria-label="Close" class="btn register" ng-click="shareVideo()">Share</button>
+                </div>
+            </div>
+        </div>
+    </div>

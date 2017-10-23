@@ -1,0 +1,22 @@
+<div class="background movie-background movies">
+        <div class="container-fluid">
+            <h1>Now Showing</h1>
+            <hr>
+            <div class="movie-list" ng-repeat="movie in movies">
+                <div ng-if="$index < 13 && $index != 2">
+                    <div class="col-md-4 movie-card">
+                        <div class="col-md-6 movie-content">
+                            <h2 class="movie-heading">{{ movie.title }}</h2>
+                            <p>Rating: {{movie.vote_average}}</p>
+                            <p>Release Date: {{movie.release_date}}</p>
+                            <p>Get Amc Showtimes
+                                <a href="{{amc}}{{movie.title}}" target="blank"><img class="amc-logo" src="../images/AMClogo.gif" alt=""></a>
+                        </div>
+                        <div class="col-md-6 movie-image">
+                            <img src="{{image}}{{ movie.poster_path}}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

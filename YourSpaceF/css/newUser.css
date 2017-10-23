@@ -1,0 +1,196 @@
+.back-color {
+  background-image: url('../images/profileinfo.jpg');
+  min-height: 100vh;
+  color: white;
+}
+
+.profile-overlay {
+  background-color: rgba(0, 0, 0, .5);
+  min-height: 100vh;
+}
+
+.welcome-heading {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.user-page {
+  background-image: url('../images/login.jpg');
+  height: 100vh;
+  color: white;
+}
+
+.about-me-row {
+  margin-bottom: 40px;
+}
+
+.user-overlay {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+}
+
+.user-info {
+  margin-top: 100px;
+}
+
+.sign-out {
+  margin-top: 30px;
+}
+
+.about-me {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+/* Style the tab */
+div.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: rgba(0,0,0, .6);
+  color:  white;
+  border-radius: 28px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+  background-color: inherit;
+  background-color: rgba(0,0,0, .6);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 28px;
+}
+
+.friends-list {
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.circle-offline{
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  display: inline-block;
+  width:8px;
+  height:8px;
+  margin-right: 2px;
+}
+
+.circle-online{
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  display: inline-block;
+  width:8px;
+  height:8px;
+  margin-right: 2px;
+  background-color: green;
+}
+
+.user-search {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid black;
+  width: 200px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 15%; 
+  width: 100%; 
+  margin-top: 30px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+}
+
+.notification-row {
+  border: 1px solid rgba(255,255,255, .6);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(0, 0, 0, .8);
+  width: 1000px;
+  margin-left: 40px;
+}
+

@@ -1,0 +1,156 @@
+<div class="user-page" ng-if="currentUser == null">
+    <div class="user-page background clearfix">
+        <div class="user-overlay">
+            <h2 class="welcome-heading">Welcome to Your Space</h2>
+            <div class="container">
+                <div class="user-login-form">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="">Email:</label>
+                                <input type="email" class="form-control" placeholder="example@email.com" required="true" ng-model="newUser.email">
+                                <p ng-show="InvalidEmail" class="red">Please Enter a valid Email.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Username:</label>
+                                <input type="text" class="form-control" required="true" placeholder="name" ng-model="newUser.username">
+                                <p ng-show="InvalidUsername" class="red">Sorry! That username is already taken!</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Firstname:</label>
+                                <input type="text" class="form-control" required="true" placeholder="firstname" ng-model="newUser.firstname">
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="">Lastname:</label>
+                                <input type="text" class="form-control" required="true" placeholder="lastname" ng-model="newUser.lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password:</label>
+                                <input type="password" class="form-control" required="true" placeholder="password" required="true" ng-model="newUser.password">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Confirm Password:</label>
+                                <input type="password" class="form-control" required="true" placeholder="password" ng-model="newUser.ConfirmPassword">
+                                <p ng-show="InvalidPassword" class="red">Your passwords do not match.</p>
+                            </div>
+                            <button data-dismiss="modal" aria-label="Close" class="btn register" ng-click="register(newUser)">Create Account</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="">Username:</label>
+                                <input type="text" class="form-control" placeholder="name" ng-model="tempUser.username">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password:</label>
+                                <input type="password" class="form-control" placeholder="password" ng-model="tempUser.password">
+                            </div>
+                            <button data-dismiss="modal" aria-label="Close" class="btn register" ng-click="login(tempUser)">Log In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div ng-if="currentUser !=null">
+    <div class="back-color background">
+        <div class="profile-overlay">
+            <div class="container">
+                <div class="row user-info">
+                    <div class="col-md-10">
+                        <h1 class="user-name">{{currentUser.firstname}} {{currentUser.lastname}}</h1>
+                    </div>
+                    <div class="col-md-2">
+                        <button ng-click="logout()" class="btn sign-out">Sign Out</button>
+                    </div>
+                </div>
+                <div class="row about-me-row">
+                    <div class="col-md-12">
+                        <h3>About Me</h3>
+                        <h4 class="about-me">{{currentUser.aboutMe}}</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="tab">
+                        <button class="tablinks" ng-click="openCity(event, 'Friends')">Friends</button>
+                        <button class="tablinks" ng-click="openCity(event, 'Notifications')">Notifications</button>
+                        <button class="tablinks" ng-click="openCity(event, 'Favorites')">Favorites</button>
+                    </div>
+                    <div id="Friends" class="tabcontent">
+                        <h5>Friends List</h5>
+                        <hr>
+                        <ul class="friends-list" ng-repeat="friend in currentUser.friends | orderBy:'-online'">
+                            <li class="list-item">
+                                <div ng-show="friend.online == false" class="circle-offline"></div>
+                                <div ng-show="friend.online == true" class="circle-online"></div>
+                                <a href=""><span ng-click="openNav(friend)">{{friend.firstname}}</span></a>
+                            </li>
+                        </ul>
+                        <h5>User List</h5>
+                        <hr>
+                        <input type="text" placeholder="Search for users" class="user-search" ng-model="mySearch">
+                        <ul class="friends-list" ng-repeat="user in users | filter: mySearch">
+                            <li class="list-item">
+                                <div ng-show="user.online == false" class="circle-offline"></div>
+                                <div ng-show="user.online == true" class="circle-online"></div>
+                                <a href=""><span ng-click="openNav(user)">{{user.firstname}}</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="Notifications" class="tabcontent">
+                        <h3>Notifications</h3>
+                        <div ng-repeat="notification in currentUser.notifications">
+                            <div ng-if="notification.pending == true">
+                                <div ng-if="notification.requestType == 'DM'">
+                                    <div class="row notification-row">
+                                        <div class="col-md-10">
+                                            <p class="notification-text"> Message from {{notification.fromUser}}: {{notification.message}}</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button class="btn btn-inline" ng-click="deleteMessage($index)">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-if="notification.requestType == 'FR'">
+                                    <p class="notification-text">You recieved a friend request from {{ notification.fromUser }}</p>
+                                    <button class="btn btn-primary" ng-click="acceptFriendRequest(notification)">Accept</button>
+                                    <button class="btn btn-danger" ng-click="declineFriendRequest(notification)">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videoWrapper search-videos" ng-repeat="video in sharedVideos">
+                            <iframe width="560" height="349" ng-src="{{video}}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div id="Favorites" class="tabcontent">
+                        <h1 class="profile-heading">Favorite Videos</h1>
+                        <hr>
+                        <div class="videoWrapper search-videos" ng-repeat="video in favoriteVideos">
+                            <iframe width="560" height="349" ng-src="{{video}}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" ng-click="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div class="container">
+                <h1>Online: {{userSelected.online}}</h1>
+                <h2>{{userSelected.firstname}}</h2>
+                <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="5" id="comment" ng-model="newDirectMessage.message"></textarea>
+                    <button type="button" class="btn btn-primary friend-send" ng-click="sendDirectMessage(newDirectMessage)">Send</button>
+                    <button type="button" class="btn btn-danger friend-delete" ng-click="deleteFriend()">Remove Friend</button>
+                    <button type="button" class="btn btn-danger friend-delete" ng-click="sendFriendRequest()">Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

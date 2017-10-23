@@ -1,0 +1,16 @@
+<div class="news-background background news">
+    <h1 class="ent-heading">Entertainment News</h1>
+    <hr class="ent-hr">
+    <div class="wrap" ng-repeat="article in entertainment ">
+        <div class="clear" ng-if="$index != 0 && $index != 9">
+            <div class="tile">
+                <img src='{{ article.urlToImage }}' />
+                <div class="text">
+                    <h1 class="animate-text">{{ article.title }}</h1>
+                    <h3 class="animate-text"><a class="link-tag" href="{{ article.url }}" target="blank">{{ article.url }}</a> </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

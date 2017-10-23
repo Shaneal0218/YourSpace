@@ -1,0 +1,44 @@
+.movie-background {
+    background-image: url('../images/stellar.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movies{
+    padding-top: 80px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.movie-card {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.movie-image {
+    padding: 0;
+}
+
+.movie-content {
+    padding: 20px;
+    border: 1px solid black;
+    height: 278px;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+
+}
+
+.movie-heading {
+    font-size: 18px;
+}
+
+.amc {
+    text-decoration: none;
+    color: black;
+}
+
+.amc-logo {
+    height: 70px;
+    width: 200px;
+}
